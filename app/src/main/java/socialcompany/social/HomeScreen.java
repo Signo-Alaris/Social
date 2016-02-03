@@ -16,13 +16,31 @@ public class HomeScreen extends AppCompatActivity{
         setContentView(R.layout.activity_home_screen);
 
         Button AddVoteButton = (Button) findViewById(R.id.button);
-        AddVoteButton.setOnClickListener(new View.OnClickListener()
+        AddVoteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeScreen.this, AddVoteScreen.class));
+            }
+        });
+
+        Button ViewVotesButton = (Button) findViewById(R.id.button3);
+        ViewVotesButton.setOnClickListener(new View.OnClickListener()
         {
-           @Override
+            @Override
             public void onClick(View v)
-           {
-               startActivity(new Intent(HomeScreen.this,AddVoteScreen.class));
-           }
+            {
+                startActivity(new Intent(HomeScreen.this, VotesScreen.class));
+            }
+        });
+
+        Button ViewProfileButton = (Button) findViewById(R.id.textView3);
+        ViewVotesButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(HomeScreen.this, ProfileScreen.class));
+            }
         });
     }
 };

@@ -23,10 +23,10 @@ public class AddVoteScreen extends AppCompatActivity {
 
         getWindow().setLayout((int)(width*0.8),(int)(height*0.8));
 
-        Button SubmitVoteButton = (Button) findViewById(R.id.button);
+        Button SubmitVoteButton = (Button) findViewById(R.id.button2);
         SubmitVoteButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View u) {
+            public void onClick(View v) {
                 startActivity(new Intent(AddVoteScreen.this, HomeScreen.class));
             }
         });

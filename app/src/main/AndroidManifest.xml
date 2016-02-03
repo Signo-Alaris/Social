@@ -15,9 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddVoteScreen"
-            android:theme="@style/AppTheme.AddVoteTheme">
-        </activity>
+        <activity
+            android:name=".AddVoteScreen"
+            android:theme="@style/AppTheme.AddVoteTheme" />
+        <activity android:name=".VotesScreen" />
+        <activity android:name=".VoteProfileScreen"></activity>
     </application>
 
 </manifest>
