@@ -32,15 +32,5 @@ public class HomeScreen extends AppCompatActivity{
                 startActivity(new Intent(HomeScreen.this, VotesScreen.class));
             }
         });
-
-        Button ViewProfileButton = (Button) findViewById(R.id.textView3);
-        ViewVotesButton.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(HomeScreen.this, ProfileScreen.class));
-            }
-        });
     }
 };
