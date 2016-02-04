@@ -7,4 +7,110 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="socialcompany.social.CatScreen">
 
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="                  CATEGORIES"
+        android:id="@+id/Categories"
+        android:layout_centerHorizontal="true"
+        android:textColor="#142af5"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 1"
+        android:id="@+id/Cat1"
+        android:layout_below="@+id/Categories"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#142af5"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 2"
+        android:id="@+id/Cat2"
+        android:textColor="#ffffff"
+        android:background="#142af5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/Cat1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 3"
+        android:id="@+id/Cat3"
+        android:background="#142af5"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/Cat2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 4"
+        android:id="@+id/Cat4"
+        android:layout_below="@+id/Cat3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#142af5"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 5"
+        android:id="@+id/Cat5"
+        android:layout_below="@+id/Cat4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#142af5"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Category 6"
+        android:id="@+id/Cat6"
+        android:layout_below="@+id/Cat5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:background="#142af5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 </RelativeLayout>

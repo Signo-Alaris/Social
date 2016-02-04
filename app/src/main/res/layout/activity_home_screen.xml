@@ -30,7 +30,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
+        android:id="@+id/ProfileButton"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -42,9 +42,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Vote Currently in Progress"
         android:id="@+id/textView3"
-        android:layout_alignBottom="@+id/imageButton"
-        android:layout_toRightOf="@+id/imageButton"
-        android:layout_toEndOf="@+id/imageButton"
+        android:layout_alignBottom="@+id/ProfileButton"
+        android:layout_toRightOf="@+id/ProfileButton"
+        android:layout_toEndOf="@+id/ProfileButton"
         android:layout_marginBottom="19dp"
         android:linksClickable="false" />
 
