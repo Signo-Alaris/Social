@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="socialcompany.social">
+    package="socialcompany.social" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".HomeScreen">
+        android:theme="@style/AppTheme" >
+        <activity android:name=".HomeScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,11 @@
             android:name=".AddVoteScreen"
             android:theme="@style/AppTheme.AddVoteTheme" />
         <activity android:name=".VotesScreen" />
-        <activity android:name=".VoteProfileScreen"></activity>
+        <activity android:name=".VoteProfileScreen" />
+        <activity android:name=".FollowerScreen" >
+        </activity>
+        <activity android:name=".CatScreen" >
+        </activity>
     </application>
 
 </manifest>

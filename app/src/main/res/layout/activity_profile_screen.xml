@@ -10,4 +10,35 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="socialcompany.social.ProfileScreen">
 
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/ProfilePicture"
+        android:layout_marginTop="39dp"
+        android:background="@mipmap/avatar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Followers"
+        android:id="@+id/FollowersButton"
+        android:layout_below="@+id/ProfilePicture"
+        android:layout_alignLeft="@+id/HistoryButton"
+        android:layout_alignStart="@+id/HistoryButton"
+        android:layout_marginTop="39dp"
+        android:layout_alignRight="@+id/ProfilePicture"
+        android:layout_alignEnd="@+id/ProfilePicture" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My History"
+        android:id="@+id/HistoryButton"
+        android:layout_below="@+id/FollowersButton"
+        android:layout_alignLeft="@+id/ProfilePicture"
+        android:layout_alignStart="@+id/ProfilePicture"
+        android:layout_alignRight="@+id/ProfilePicture"
+        android:layout_alignEnd="@+id/ProfilePicture" />
 </RelativeLayout>
