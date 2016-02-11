@@ -18,7 +18,7 @@ public class LoginScreen extends AppCompatActivity {
         CreateAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginScreen.this, HomeScreen.class));
+                startActivity(new Intent(LoginScreen.this, CreateAccScreen.class));
             }
         });
 
